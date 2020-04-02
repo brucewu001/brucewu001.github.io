@@ -3,81 +3,34 @@
   <entry>
     <title>知识汇总</title>
     <url>/2020/04/01/%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BB/</url>
-    <content><![CDATA[<h2 id="大前端"><a href="#大前端" class="headerlink" title="大前端:"></a>大前端:</h2><h4 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h4><table>
+    <content><![CDATA[<blockquote>
+<h1 id="大前端"><a href="#大前端" class="headerlink" title="大前端:"></a>大前端:</h1></blockquote>
+<h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><table>
 <thead>
 <tr>
-<th align="center"></th>
-<th align="center"></th>
-<th align="center"></th>
-<th align="center"></th>
-<th align="center"></th>
-<th align="center"></th>
-<th align="center"></th>
+<th align="center">html</th>
+<th align="center">css</th>
+<th align="center">javaScript</th>
+<th align="center">dom</th>
+<th align="center">bom</th>
+<th align="center">小程序</th>
+<th align="center">android</th>
 </tr>
 </thead>
 <tbody><tr>
-<td align="center">html</td>
-<td align="center">css</td>
-<td align="center">javaScript</td>
-<td align="center">dom</td>
-<td align="center">bom</td>
-<td align="center">小程序</td>
-<td align="center">android</td>
-</tr>
-<tr>
-<td align="center">-</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
+<td align="center">√</td>
+<td align="center">√</td>
+<td align="center">√</td>
+<td align="center">√</td>
+<td align="center">√</td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center">ios</td>
-<td align="center">window</td>
-<td align="center">mac</td>
+<td align="center"><strong>ios</strong></td>
+<td align="center"><strong>window</strong></td>
+<td align="center"><strong>mac</strong></td>
 <td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="center">-</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="center">#### 工具库</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-</tbody></table>
-<table>
-<thead>
-<tr>
-<th align="center"></th>
-<th align="center"></th>
-<th align="center"></th>
-<th align="center"></th>
-<th align="center"></th>
-<th align="center"></th>
-<th align="center"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">jQuery</td>
-<td align="center">Bootstrap</td>
-<td align="center">Sass</td>
-<td align="center">Less</td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
@@ -92,249 +45,319 @@
 <td align="center"></td>
 </tr>
 </tbody></table>
-<h4 id="框架"><a href="#框架" class="headerlink" title="框架"></a>框架</h4><table>
+<h2 id="工具库"><a href="#工具库" class="headerlink" title="工具库"></a>工具库</h2><table>
 <thead>
 <tr>
+<th align="center">jQuery</th>
+<th align="center">Bootstrap</th>
+<th align="center">Sass</th>
+<th align="center">Less</th>
 <th align="center"></th>
 <th align="center"></th>
 <th align="center"></th>
-<th align="center"></th>
-<th align="center"></th>
-<th align="center"></th>
-<th align="center"></th>
-</tr>
-</thead>
-</table>
-<pre><code>| 已完成|    | 已完成|        | 已完成  | UI       | 已完成 |</code></pre><p>| :—–:    | :—:| :—-:   | :—-:| :—–:      | :—-: | :—:    | :—: |<br>|       | √    | √     | react       |         | elmenteUI| √     |<br>| √    |      | redux       |         | layUI    | |<br>| √    |        | react-router|         | antUI    | |<br>| √    |       | vue         | √       | antDesignUI||<br>| √    |          |       | vue-router  | √       |           |    |<br>|      |          |       | vux         |         |            |   |<br>|      |          |       | angurla     |         |            |   |<br>|      |          |       | eletron(Win/Mac)|      |       |       |<br>|      |           |       | react Native(a/i)|     |       |       |<br>|      |           |        | flutter(a/i) |       |       |      |<br>|||||express||||</p>
-<h2 id="大后端"><a href="#大后端" class="headerlink" title="大后端:"></a>大后端:</h2><table>
-<thead>
-<tr>
-<th align="center">基础</th>
-<th align="center">已完成</th>
-<th align="center">工具库</th>
-<th align="center">已完成</th>
-<th align="center">框架</th>
-<th align="center">已完成</th>
-<th align="center">服务器/中间件</th>
-<th align="center">已完成</th>
 </tr>
 </thead>
 <tbody><tr>
-<td align="center">C(基础)</td>
-<td align="center">√</td>
-<td align="center">mybatis</td>
-<td align="center">√</td>
-<td align="center">springboot</td>
-<td align="center">√</td>
-<td align="center">mysql</td>
-<td align="center">√</td>
-</tr>
-<tr>
-<td align="center">C++(基础)</td>
-<td align="center">√</td>
-<td align="center">jpa</td>
-<td align="center"></td>
-<td align="center">springWeb</td>
-<td align="center">√</td>
-<td align="center">redis</td>
-<td align="center">√</td>
-</tr>
-<tr>
-<td align="center">java(基础/高级)</td>
-<td align="center">√</td>
-<td align="center">Druid</td>
-<td align="center">√</td>
-<td align="center">springcloud</td>
-<td align="center"></td>
-<td align="center">elasticsearch</td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="center">python(基础)</td>
-<td align="center">√</td>
-<td align="center">JDBC</td>
-<td align="center">√</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center">RabbitMq</td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center">JWT</td>
+<td align="center">-</td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
-<td align="center">MongoDb</td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center">tomcat</td>
-<td align="center">√</td>
-</tr>
-</tbody></table>
-<h2 id="部署"><a href="#部署" class="headerlink" title="部署:"></a>部署:</h2><table>
-<thead>
-<tr>
-<th align="center">基本操作</th>
-<th align="center">已完成</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">docker</td>
-<td align="center">√</td>
-</tr>
-<tr>
-<td align="center">linux</td>
-<td align="center">√</td>
-</tr>
-<tr>
-<td align="center">git</td>
-<td align="center">√</td>
-</tr>
-</tbody></table>
-<h2 id="计算机基础"><a href="#计算机基础" class="headerlink" title="计算机基础:"></a>计算机基础:</h2><table>
-<thead>
-<tr>
-<th align="center">计算机基础</th>
-<th align="center">已完成</th>
-<th align="center">算法</th>
-<th align="center">已完成</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">数据结构</td>
-<td align="center"></td>
-<td align="center">十大排序算法</td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="center">计算机网络</td>
-<td align="center"></td>
-<td align="center">七大搜索算法</td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="center">设计模式</td>
-<td align="center"></td>
-<td align="center">数据分析算法</td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="center">计算机组成原理</td>
-<td align="center"></td>
-<td align="center">人工智能算法</td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="center">操作系统原理</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="center">编译原理</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="center">数字电路</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="center">模拟电路</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="center">英语四级</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="center">英语六级</td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 </tbody></table>
-<h2 id="专业相关"><a href="#专业相关" class="headerlink" title="专业相关:"></a>专业相关:</h2><table>
+<h2 id="框架"><a href="#框架" class="headerlink" title="框架"></a>框架</h2><table>
 <thead>
 <tr>
-<th align="center">相关</th>
-<th align="center">已完成</th>
+<th align="center">react</th>
+<th align="center">redux</th>
+<th align="center">react-router</th>
+<th align="center">vue</th>
+<th align="center">vue-router</th>
+<th align="center">vux</th>
+<th align="center">angurla</th>
 </tr>
 </thead>
 <tbody><tr>
-<td align="center">yml</td>
+<td align="center">-</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center">markdown</td>
+<td align="center"><strong>electron(Win/Mac)</strong></td>
+<td align="center"><strong>react Native(a/i)</strong></td>
+<td align="center"><strong>flutter(a/i)</strong></td>
+<td align="center"><strong>express</strong></td>
+<td align="center"><strong>D3</strong></td>
+<td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center">xml</td>
+<td align="center">-</td>
 <td align="center"></td>
-</tr>
-<tr>
-<td align="center">xpath</td>
 <td align="center"></td>
-</tr>
-<tr>
-<td align="center">正则表达式</td>
 <td align="center"></td>
-</tr>
-<tr>
-<td align="center">网络爬虫</td>
+<td align="center"></td>
+<td align="center"></td>
 <td align="center"></td>
 </tr>
 </tbody></table>
-<h2 id="项目"><a href="#项目" class="headerlink" title="项目:"></a>项目:</h2><table>
+<h2 id="UI组件"><a href="#UI组件" class="headerlink" title="UI组件"></a>UI组件</h2><table>
 <thead>
 <tr>
-<th align="center">项目</th>
-<th align="center">已完成</th>
+<th align="center">elmenteUI</th>
+<th align="center">layUI</th>
+<th align="center">antUI</th>
+<th align="center">antDesignUI</th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
 </tr>
 </thead>
 <tbody><tr>
-<td align="center">博客</td>
+<td align="center">-</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<blockquote>
+<h1 id="大后端"><a href="#大后端" class="headerlink" title="大后端:"></a>大后端:</h1></blockquote>
+<h2 id="基础语言"><a href="#基础语言" class="headerlink" title="基础语言"></a>基础语言</h2><table>
+<thead>
+<tr>
+<th align="center">C(基础)</th>
+<th align="center">C++(基础)</th>
+<th align="center">java(基础/高级)</th>
+<th align="center">python(基础)</th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody><tr>
 <td align="center">√</td>
-</tr>
-<tr>
-<td align="center">mall</td>
+<td align="center">√</td>
+<td align="center">√</td>
+<td align="center">√</td>
+<td align="center"></td>
+<td align="center"></td>
 <td align="center"></td>
 </tr>
 </tbody></table>
-<h2 id="法学"><a href="#法学" class="headerlink" title="法学:"></a>法学:</h2><table>
+<h2 id="工具库-1"><a href="#工具库-1" class="headerlink" title="工具库"></a>工具库</h2><table>
 <thead>
 <tr>
-<th align="center">法学</th>
-<th align="center">已完成</th>
+<th align="center">mybatis</th>
+<th align="center">Druid</th>
+<th align="center">JDBC</th>
+<th align="center">JWT</th>
+<th align="center">Lombok</th>
+<th align="center">MySQL Driver</th>
+<th align="center"></th>
 </tr>
 </thead>
 <tbody><tr>
-<td align="center">民法</td>
+<td align="center">√</td>
+<td align="center">√</td>
+<td align="center">√</td>
 <td align="center"></td>
-</tr>
-<tr>
-<td align="center">刑法</td>
+<td align="center"></td>
+<td align="center">√</td>
 <td align="center"></td>
 </tr>
 </tbody></table>
-<h2 id="经济学"><a href="#经济学" class="headerlink" title="经济学:"></a>经济学:</h2><h2 id="心理学"><a href="#心理学" class="headerlink" title="心理学:"></a>心理学:</h2><h2 id="建筑设计"><a href="#建筑设计" class="headerlink" title="建筑设计:"></a>建筑设计:</h2>]]></content>
+<h2 id="框架-1"><a href="#框架-1" class="headerlink" title="框架"></a>框架</h2><h3 id="spring"><a href="#spring" class="headerlink" title="spring"></a>spring</h3><table>
+<thead>
+<tr>
+<th align="center">springBoot</th>
+<th align="center">springWeb</th>
+<th align="center">SpringDataJPA</th>
+<th align="center">springSecurity</th>
+<th align="center">springCloud</th>
+<th align="center"></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">√</td>
+<td align="center">√</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<h2 id="服务器-中间件"><a href="#服务器-中间件" class="headerlink" title="服务器/中间件"></a>服务器/中间件</h2><table>
+<thead>
+<tr>
+<th align="center">tomcat</th>
+<th align="center">mysql</th>
+<th align="center">redis</th>
+<th align="center">elasticsearch</th>
+<th align="center">RabbitMq</th>
+<th align="center">MongoDb</th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">√</td>
+<td align="center">√</td>
+<td align="center">√</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<h1 id="部署"><a href="#部署" class="headerlink" title="部署:"></a>部署:</h1><table>
+<thead>
+<tr>
+<th align="center">docker</th>
+<th align="center">linux</th>
+<th align="center">git</th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">√</td>
+<td align="center">√</td>
+<td align="center">√</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<h1 id="算法"><a href="#算法" class="headerlink" title="算法"></a>算法</h1><table>
+<thead>
+<tr>
+<th align="center">数据结构</th>
+<th align="center">十大排序算法</th>
+<th align="center">七大搜索算法</th>
+<th align="center">设计模式</th>
+<th align="center">数据分析算法</th>
+<th align="center">人工智能算法</th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">-</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<h1 id="计算机基础"><a href="#计算机基础" class="headerlink" title="计算机基础:"></a>计算机基础:</h1><table>
+<thead>
+<tr>
+<th align="center">计算机网络</th>
+<th align="center">计算机组成原理</th>
+<th align="center">汇编语言</th>
+<th align="center">操作系统原理</th>
+<th align="center">编译原理</th>
+<th align="center">数字电路</th>
+<th align="center">模拟电路</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">-</td>
+<td align="center"></td>
+<td align="center">√</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<h1 id="专业相关"><a href="#专业相关" class="headerlink" title="专业相关:"></a>专业相关:</h1><table>
+<thead>
+<tr>
+<th align="center">yml</th>
+<th align="center">markdown</th>
+<th align="center">xml</th>
+<th align="center">xpath</th>
+<th align="center">正则表达式</th>
+<th align="center">网络爬虫</th>
+<th align="center">英语四级/六级</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">√</td>
+<td align="center"></td>
+<td align="center">√</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<h1 id="项目"><a href="#项目" class="headerlink" title="项目:"></a>项目:</h1><table>
+<thead>
+<tr>
+<th align="center">博客</th>
+<th align="center">mall</th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">√</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<h1 id="法学"><a href="#法学" class="headerlink" title="法学:"></a>法学:</h1><table>
+<thead>
+<tr>
+<th align="center">民法</th>
+<th align="center">刑法</th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">-</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<h1 id="经济学"><a href="#经济学" class="headerlink" title="经济学:"></a>经济学:</h1><h1 id="心理学"><a href="#心理学" class="headerlink" title="心理学:"></a>心理学:</h1><h1 id="建筑设计"><a href="#建筑设计" class="headerlink" title="建筑设计:"></a>建筑设计:</h1>]]></content>
+      <categories>
+        <category>汇总</category>
+      </categories>
+      <tags>
+        <tag>知识汇总</tag>
+      </tags>
   </entry>
   <entry>
     <title>html学习心得</title>
