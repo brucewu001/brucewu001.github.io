@@ -1,6 +1,133 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>正则表达式学习心得</title>
+    <url>/2020/04/02/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97/</url>
+    <content><![CDATA[<h3 id="定义"><a href="#定义" class="headerlink" title="定义:"></a>定义:</h3><p>正则表达式是对字符串的一层抽象的一门语言</p>
+<h3 id="功能"><a href="#功能" class="headerlink" title="功能:"></a>功能:</h3><p>解析字符串</p>
+<h3 id="应用"><a href="#应用" class="headerlink" title="应用:"></a>应用:</h3><p>各种语言的编译器<br>markdown转html解析器<br>网络爬虫内容提取<br>字符串替换</p>
+]]></content>
+      <categories>
+        <category>字符串解析</category>
+      </categories>
+      <tags>
+        <tag>正则表达式</tag>
+        <tag>字符串解析</tag>
+        <tag>学习心得</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>正则表达式知识汇总</title>
+    <url>/2020/04/02/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BB/</url>
+    <content><![CDATA[<table>
+<thead>
+<tr>
+<th align="center">字符修饰符</th>
+<th align="center">描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">.</td>
+<td align="center">代表<strong>任意一个</strong>字符</td>
+</tr>
+<tr>
+<td align="center">\s</td>
+<td align="center">代表任意一个 \n,\t,\b,\r…的<strong>空字符</strong></td>
+</tr>
+<tr>
+<td align="center">\S</td>
+<td align="center">代表任意一个非 \n,\t,\b,\r…的<strong>非空格字符:</strong></td>
+</tr>
+<tr>
+<td align="center">\d</td>
+<td align="center">代表任意一个0-9的<strong>数字字符</strong></td>
+</tr>
+<tr>
+<td align="center">\D</td>
+<td align="center">代表任意一个非0-9的<strong>非数字字符</strong></td>
+</tr>
+<tr>
+<td align="center">\w</td>
+<td align="center">代表任意一个a-z,A-Z,0-9,_的<strong>命名字符</strong></td>
+</tr>
+<tr>
+<td align="center">\W</td>
+<td align="center">代表任意一个非a-z,A-Z,0-9,_的<strong>特殊符号字符(非命名字符)</strong></td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th align="center">字符数量修饰符</th>
+<th align="center">描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">?</td>
+<td align="center">代表任意<strong>一个或零个</strong>字符</td>
+</tr>
+<tr>
+<td align="center">*</td>
+<td align="center">代表任意<strong>零个或一个或多个</strong>字符</td>
+</tr>
+<tr>
+<td align="center">+</td>
+<td align="center">代表任意<strong>一个或多个</strong>字符</td>
+</tr>
+<tr>
+<td align="center">{n}</td>
+<td align="center">代表任意<strong>n个</strong>字符</td>
+</tr>
+<tr>
+<td align="center">{n,}</td>
+<td align="center">代表任意<strong>n个或n个以上</strong>字符</td>
+</tr>
+<tr>
+<td align="center">{,m}</td>
+<td align="center">代表任意<strong>m个或m以个下</strong>字符</td>
+</tr>
+<tr>
+<td align="center">{n,m}</td>
+<td align="center">代表任意<strong>n-m个</strong>字符</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><strong>注意: 以上表格中都需要前缀 例如 a?:代表一个或零个a, ?:代表一个问号</strong></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th align="center">尚未理解透彻修饰符</th>
+<th align="center">描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">()</td>
+<td align="center">什么组来着…待理解中</td>
+</tr>
+<tr>
+<td align="center">(?=)</td>
+<td align="center">代表正向肯定…卡壳…说不出来, 待学习…</td>
+</tr>
+<tr>
+<td align="center">(?!)</td>
+<td align="center">代表正向否定…同上</td>
+</tr>
+<tr>
+<td align="center">\1</td>
+<td align="center">代表第一个()中解析出来的字符串,相等于复用()解析出来的字符串,同理第二个()用\2表示,以此类推</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>知识汇总</category>
+      </categories>
+      <tags>
+        <tag>知识汇总</tag>
+        <tag>正则表达式</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>知识汇总</title>
     <url>/2020/04/01/%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BB/</url>
     <content><![CDATA[<blockquote>
@@ -11,10 +138,10 @@
 <th align="center">html</th>
 <th align="center">css</th>
 <th align="center">javaScript</th>
-<th align="center">dom</th>
-<th align="center">bom</th>
+<th align="center">Dom</th>
+<th align="center">Bom</th>
+<th align="center">Ajax</th>
 <th align="center">小程序</th>
-<th align="center">android</th>
 </tr>
 </thead>
 <tbody><tr>
@@ -27,10 +154,10 @@
 <td align="center"></td>
 </tr>
 <tr>
+<td align="center"><strong>android</strong></td>
 <td align="center"><strong>ios</strong></td>
 <td align="center"><strong>window</strong></td>
 <td align="center"><strong>mac</strong></td>
-<td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
@@ -92,8 +219,8 @@
 <td align="center"><strong>electron(Win/Mac)</strong></td>
 <td align="center"><strong>react Native(a/i)</strong></td>
 <td align="center"><strong>flutter(a/i)</strong></td>
-<td align="center"><strong>express</strong></td>
 <td align="center"><strong>D3</strong></td>
+<td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
@@ -197,6 +324,28 @@
 <td align="center"></td>
 </tr>
 </tbody></table>
+<h3 id="express"><a href="#express" class="headerlink" title="express"></a>express</h3><table>
+<thead>
+<tr>
+<th align="center">express</th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">-</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
 <h2 id="服务器-中间件"><a href="#服务器-中间件" class="headerlink" title="服务器/中间件"></a>服务器/中间件</h2><table>
 <thead>
 <tr>
@@ -206,7 +355,7 @@
 <th align="center">elasticsearch</th>
 <th align="center">RabbitMq</th>
 <th align="center">MongoDb</th>
-<th align="center"></th>
+<th align="center">node</th>
 </tr>
 </thead>
 <tbody><tr>
@@ -301,6 +450,24 @@
 <td align="center">√</td>
 <td align="center"></td>
 <td align="center">√</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>json</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">-</td>
+<td align="center"></td>
+<td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
