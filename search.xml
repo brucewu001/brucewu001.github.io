@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>大前端学习心得</title>
+    <url>/2020/04/06/%E5%A4%A7%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97/</url>
+    <content><![CDATA[<h4 id="心得">心得:</h4>
+<p>大前端是c/s和b/s架构中客户端和浏览器端的总和,随着大量的框架和技术产生,从简单的一套html/css/javaScript衍生出了面向桌面端应用的框架election和移动端应用的框架react-native使得我们可以极大降低学习成本.真正的实现一套代码多端运行.</p>
+<p>深入学习javaScript发现这语法很多很乱…一个数组有map,for,for( in ), forEach()…多个语法</p>
+<h4 id="前端学习方法">前端学习方法:</h4>
+<p>我开始是看大佬啊里巴巴的张帅的推荐,从W3School上学习,W3School页面简洁,且思路清晰,但是javaScript的教程并不好,其他的质量也一般,所以…<br>
+推荐到MDN学习.<br>
+推荐到MDN学习.<br>
+推荐到MDN学习.<br>
+整个MDN教程看一遍.<br>
+再到freecodecamp做练习题(虽然有些题比较坑,但依旧是很好的练习前端的网站,仅练前连个大章即可,后面的学了之后,再练).<br>
+以后的参考文档也在MDN中查就好了<br>
+书籍就不用买书籍了有MDN就好了<br>
+嗯, 感觉一个MDN就把前端的基础知识给包了<br>
+一些热门框架建议直接看官方文档(vue, react)</p>
+]]></content>
+      <categories>
+        <category>学习心得</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>正则表达式学习心得</title>
     <url>/2020/04/02/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97/</url>
     <content><![CDATA[<h3 id="定义"><a href="#定义" class="headerlink" title="定义:"></a>定义:</h3><p>正则表达式是对字符串的一层抽象的一门语言</p>
@@ -14,117 +39,6 @@
         <tag>正则表达式</tag>
         <tag>字符串解析</tag>
         <tag>学习心得</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>正则表达式知识汇总</title>
-    <url>/2020/04/02/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BB/</url>
-    <content><![CDATA[<table>
-<thead>
-<tr>
-<th align="center">字符修饰符</th>
-<th align="center">描述</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">.</td>
-<td align="center">代表<strong>任意一个</strong>字符</td>
-</tr>
-<tr>
-<td align="center">\s</td>
-<td align="center">代表任意一个 \n,\t,\b,\r…的<strong>空字符</strong></td>
-</tr>
-<tr>
-<td align="center">\S</td>
-<td align="center">代表任意一个非 \n,\t,\b,\r…的<strong>非空格字符:</strong></td>
-</tr>
-<tr>
-<td align="center">\d</td>
-<td align="center">代表任意一个0-9的<strong>数字字符</strong></td>
-</tr>
-<tr>
-<td align="center">\D</td>
-<td align="center">代表任意一个非0-9的<strong>非数字字符</strong></td>
-</tr>
-<tr>
-<td align="center">\w</td>
-<td align="center">代表任意一个a-z,A-Z,0-9,_的<strong>命名字符</strong></td>
-</tr>
-<tr>
-<td align="center">\W</td>
-<td align="center">代表任意一个非a-z,A-Z,0-9,_的<strong>特殊符号字符(非命名字符)</strong></td>
-</tr>
-</tbody></table>
-<table>
-<thead>
-<tr>
-<th align="center">字符数量修饰符</th>
-<th align="center">描述</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">?</td>
-<td align="center">代表任意<strong>一个或零个</strong>字符</td>
-</tr>
-<tr>
-<td align="center">*</td>
-<td align="center">代表任意<strong>零个或一个或多个</strong>字符</td>
-</tr>
-<tr>
-<td align="center">+</td>
-<td align="center">代表任意<strong>一个或多个</strong>字符</td>
-</tr>
-<tr>
-<td align="center">{n}</td>
-<td align="center">代表任意<strong>n个</strong>字符</td>
-</tr>
-<tr>
-<td align="center">{n,}</td>
-<td align="center">代表任意<strong>n个或n个以上</strong>字符</td>
-</tr>
-<tr>
-<td align="center">{,m}</td>
-<td align="center">代表任意<strong>m个或m以个下</strong>字符</td>
-</tr>
-<tr>
-<td align="center">{n,m}</td>
-<td align="center">代表任意<strong>n-m个</strong>字符</td>
-</tr>
-</tbody></table>
-<blockquote>
-<p><strong>注意: 以上表格中都需要前缀 例如 a?:代表一个或零个a, ?:代表一个问号</strong></p>
-</blockquote>
-<table>
-<thead>
-<tr>
-<th align="center">尚未理解透彻修饰符</th>
-<th align="center">描述</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">()</td>
-<td align="center">什么组来着…待理解中</td>
-</tr>
-<tr>
-<td align="center">(?=)</td>
-<td align="center">代表正向肯定…卡壳…说不出来, 待学习…</td>
-</tr>
-<tr>
-<td align="center">(?!)</td>
-<td align="center">代表正向否定…同上</td>
-</tr>
-<tr>
-<td align="center">\1</td>
-<td align="center">代表第一个()中解析出来的字符串,相等于复用()解析出来的字符串,同理第二个()用\2表示,以此类推</td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>知识汇总</category>
-      </categories>
-      <tags>
-        <tag>知识汇总</tag>
-        <tag>正则表达式</tag>
       </tags>
   </entry>
   <entry>
@@ -529,7 +443,8 @@
   <entry>
     <title>html学习心得</title>
     <url>/2020/03/31/html%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<h3 id="定义"><a href="#定义" class="headerlink" title="定义:"></a>定义:</h3><p>超文本标记语言(xxx markup langxxx 不会拼): 专门修饰网站页面的一套标记语言(非编程语言)<br>可以将文字,音频,视频,展示在前端页面上的语言</p>
+]]></content>
       <categories>
         <category>学习心得</category>
       </categories>
@@ -539,372 +454,13 @@
       </tags>
   </entry>
   <entry>
-    <title>测试数字总量和阅读时长</title>
-    <url>/2020/03/30/%E6%B5%8B%E8%AF%95%E6%95%B0%E5%AD%97%E6%80%BB%E9%87%8F%E5%92%8C%E9%98%85%E8%AF%BB%E6%97%B6%E9%95%BF/</url>
-    <content><![CDATA[<p>  awl: 4
-  wpm: 275前言
-这算是各种文章的集合了，如果你有耐心就看完吧(Ｔ▽Ｔ)
-如果是明确想要哪一种功能的童鞋，那就直接查找吧( • ̀ω•́ )✧</p>
-<p>本篇文章是在已经搭建好gitpage+hexo的博客的前提下（不懂怎么搭建的可以参考我的另一篇博文：极简搭建博客 或者Hexo和Git搭建博客，这两篇博文都教了大家最基础的怎么将博客搭建起来。本篇博文是使用next主题的进击版本，主要是有以下内容</p>
-<a id="more"></a>
-<p>域名绑定，将github博客和你的独有域名绑定
-添加更多的menu内容
-添加头像
-定义网站个性logo
-自定义样式，重写默认样式，个性化定制你的博客
-炫酷动态背景制作
-添加网易云音乐
-添加网易云跟帖
-添加leancloud阅读次数统计功能
-添加wordcount页面字数统计
-添加fork me on github功能
-要想最快的知道这些功能的效果，请移步我的个人博客：https://rainyxy.github.io/，顺便求个forkヽ(●´ε｀●)ノ</p>
-<p>首先要说一下我使用的版本，这个是很重要的，好多版本都已经进行了更新，特别是next主题集成了更多的插件，简直不要太爽＼（＠￣∇￣＠）／
-————————————————
-版权声明：本文为CSDN博主「Rainy_X」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/Rainy_X/java/article/details/79828724前言
-这算是各种文章的集合了，如果你有耐心就看完吧(Ｔ▽Ｔ)
-如果是明确想要哪一种功能的童鞋，那就直接查找吧( • ̀ω•́ )✧</p>
-<p>本篇文章是在已经搭建好gitpage+hexo的博客的前提下（不懂怎么搭建的可以参考我的另一篇博文：极简搭建博客 或者Hexo和Git搭建博客，这两篇博文都教了大家最基础的怎么将博客搭建起来。本篇博文是使用next主题的进击版本，主要是有以下内容</p>
-<p>域名绑定，将github博客和你的独有域名绑定
-添加更多的menu内容
-添加头像
-定义网站个性logo
-自定义样式，重写默认样式，个性化定制你的博客
-炫酷动态背景制作
-添加网易云音乐
-添加网易云跟帖
-添加leancloud阅读次数统计功能
-添加wordcount页面字数统计
-添加fork me on github功能
-要想最快的知道这些功能的效果，请移步我的个人博客：https://rainyxy.github.io/，顺便求个forkヽ(●´ε｀●)ノ</p>
-<p>首先要说一下我使用的版本，这个是很重要的，好多版本都已经进行了更新，特别是next主题集成了更多的插件，简直不要太爽＼（＠￣∇￣＠）／
-————————————————
-版权声明：本文为CSDN博主「Rainy_X」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/Rainy_X/java/article/details/79828724前言
-这算是各种文章的集合了，如果你有耐心就看完吧(Ｔ▽Ｔ)
-如果是明确想要哪一种功能的童鞋，那就直接查找吧( • ̀ω•́ )✧</p>
-<p>本篇文章是在已经搭建好gitpage+hexo的博客的前提下（不懂怎么搭建的可以参考我的另一篇博文：极简搭建博客 或者Hexo和Git搭建博客，这两篇博文都教了大家最基础的怎么将博客搭建起来。本篇博文是使用next主题的进击版本，主要是有以下内容</p>
-<p>域名绑定，将github博客和你的独有域名绑定
-添加更多的menu内容
-添加头像
-定义网站个性logo
-自定义样式，重写默认样式，个性化定制你的博客
-炫酷动态背景制作
-添加网易云音乐
-添加网易云跟帖
-添加leancloud阅读次数统计功能
-添加wordcount页面字数统计
-添加fork me on github功能
-要想最快的知道这些功能的效果，请移步我的个人博客：https://rainyxy.github.io/，顺便求个forkヽ(●´ε｀●)ノ</p>
-<p>首先要说一下我使用的版本，这个是很重要的，好多版本都已经进行了更新，特别是next主题集成了更多的插件，简直不要太爽＼（＠￣∇￣＠）／
-————————————————
-版权声明：本文为CSDN博主「Rainy_X」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/Rainy_X/java/article/details/79828724前言
-这算是各种文章的集合了，如果你有耐心就看完吧(Ｔ▽Ｔ)
-如果是明确想要哪一种功能的童鞋，那就直接查找吧( • ̀ω•́ )✧</p>
-<p>本篇文章是在已经搭建好gitpage+hexo的博客的前提下（不懂怎么搭建的可以参考我的另一篇博文：极简搭建博客 或者Hexo和Git搭建博客，这两篇博文都教了大家最基础的怎么将博客搭建起来。本篇博文是使用next主题的进击版本，主要是有以下内容</p>
-<p>域名绑定，将github博客和你的独有域名绑定
-添加更多的menu内容
-添加头像
-定义网站个性logo
-自定义样式，重写默认样式，个性化定制你的博客
-炫酷动态背景制作
-添加网易云音乐
-添加网易云跟帖
-添加leancloud阅读次数统计功能
-添加wordcount页面字数统计
-添加fork me on github功能
-要想最快的知道这些功能的效果，请移步我的个人博客：https://rainyxy.github.io/，顺便求个forkヽ(●´ε｀●)ノ</p>
-<p>首先要说一下我使用的版本，这个是很重要的，好多版本都已经进行了更新，特别是next主题集成了更多的插件，简直不要太爽＼（＠￣∇￣＠）／
-————————————————
-版权声明：本文为CSDN博主「Rainy_X」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/Rainy_X/java/article/details/79828724前言
-这算是各种文章的集合了，如果你有耐心就看完吧(Ｔ▽Ｔ)
-如果是明确想要哪一种功能的童鞋，那就直接查找吧( • ̀ω•́ )✧</p>
-<p>本篇文章是在已经搭建好gitpage+hexo的博客的前提下（不懂怎么搭建的可以参考我的另一篇博文：极简搭建博客 或者Hexo和Git搭建博客，这两篇博文都教了大家最基础的怎么将博客搭建起来。本篇博文是使用next主题的进击版本，主要是有以下内容</p>
-<p>域名绑定，将github博客和你的独有域名绑定
-添加更多的menu内容
-添加头像
-定义网站个性logo
-自定义样式，重写默认样式，个性化定制你的博客
-炫酷动态背景制作
-添加网易云音乐
-添加网易云跟帖
-添加leancloud阅读次数统计功能
-添加wordcount页面字数统计
-添加fork me on github功能
-要想最快的知道这些功能的效果，请移步我的个人博客：https://rainyxy.github.io/，顺便求个forkヽ(●´ε｀●)ノ</p>
-<p>首先要说一下我使用的版本，这个是很重要的，好多版本都已经进行了更新，特别是next主题集成了更多的插件，简直不要太爽＼（＠￣∇￣＠）／
-————————————————
-版权声明：本文为CSDN博主「Rainy_X」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/Rainy_X/java/article/details/79828724前言
-这算是各种文章的集合了，如果你有耐心就看完吧(Ｔ▽Ｔ)
-如果是明确想要哪一种功能的童鞋，那就直接查找吧( • ̀ω•́ )✧</p>
-<p>本篇文章是在已经搭建好gitpage+hexo的博客的前提下（不懂怎么搭建的可以参考我的另一篇博文：极简搭建博客 或者Hexo和Git搭建博客，这两篇博文都教了大家最基础的怎么将博客搭建起来。本篇博文是使用next主题的进击版本，主要是有以下内容</p>
-<p>域名绑定，将github博客和你的独有域名绑定
-添加更多的menu内容
-添加头像
-定义网站个性logo
-自定义样式，重写默认样式，个性化定制你的博客
-炫酷动态背景制作
-添加网易云音乐
-添加网易云跟帖
-添加leancloud阅读次数统计功能
-添加wordcount页面字数统计
-添加fork me on github功能
-要想最快的知道这些功能的效果，请移步我的个人博客：https://rainyxy.github.io/，顺便求个forkヽ(●´ε｀●)ノ</p>
-<p>首先要说一下我使用的版本，这个是很重要的，好多版本都已经进行了更新，特别是next主题集成了更多的插件，简直不要太爽＼（＠￣∇￣＠）／
-————————————————
-版权声明：本文为CSDN博主「Rainy_X」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/Rainy_X/java/article/details/79828724前言
-这算是各种文章的集合了，如果你有耐心就看完吧(Ｔ▽Ｔ)
-如果是明确想要哪一种功能的童鞋，那就直接查找吧( • ̀ω•́ )✧</p>
-<p>本篇文章是在已经搭建好gitpage+hexo的博客的前提下（不懂怎么搭建的可以参考我的另一篇博文：极简搭建博客 或者Hexo和Git搭建博客，这两篇博文都教了大家最基础的怎么将博客搭建起来。本篇博文是使用next主题的进击版本，主要是有以下内容</p>
-<p>域名绑定，将github博客和你的独有域名绑定
-添加更多的menu内容
-添加头像
-定义网站个性logo
-自定义样式，重写默认样式，个性化定制你的博客
-炫酷动态背景制作
-添加网易云音乐
-添加网易云跟帖
-添加leancloud阅读次数统计功能
-添加wordcount页面字数统计
-添加fork me on github功能
-要想最快的知道这些功能的效果，请移步我的个人博客：https://rainyxy.github.io/，顺便求个forkヽ(●´ε｀●)ノ</p>
-<p>首先要说一下我使用的版本，这个是很重要的，好多版本都已经进行了更新，特别是next主题集成了更多的插件，简直不要太爽＼（＠￣∇￣＠）／
-————————————————
-版权声明：本文为CSDN博主「Rainy_X」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/Rainy_X/java/article/details/79828724前言
-这算是各种文章的集合了，如果你有耐心就看完吧(Ｔ▽Ｔ)
-如果是明确想要哪一种功能的童鞋，那就直接查找吧( • ̀ω•́ )✧</p>
-<p>本篇文章是在已经搭建好gitpage+hexo的博客的前提下（不懂怎么搭建的可以参考我的另一篇博文：极简搭建博客 或者Hexo和Git搭建博客，这两篇博文都教了大家最基础的怎么将博客搭建起来。本篇博文是使用next主题的进击版本，主要是有以下内容</p>
-<p>域名绑定，将github博客和你的独有域名绑定
-添加更多的menu内容
-添加头像
-定义网站个性logo
-自定义样式，重写默认样式，个性化定制你的博客
-炫酷动态背景制作
-添加网易云音乐
-添加网易云跟帖
-添加leancloud阅读次数统计功能
-添加wordcount页面字数统计
-添加fork me on github功能
-要想最快的知道这些功能的效果，请移步我的个人博客：https://rainyxy.github.io/，顺便求个forkヽ(●´ε｀●)ノ</p>
-<p>首先要说一下我使用的版本，这个是很重要的，好多版本都已经进行了更新，特别是next主题集成了更多的插件，简直不要太爽＼（＠￣∇￣＠）／
-————————————————
-版权声明：本文为CSDN博主「Rainy_X」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/Rainy_X/java/article/details/79828724前言
-这算是各种文章的集合了，如果你有耐心就看完吧(Ｔ▽Ｔ)
-如果是明确想要哪一种功能的童鞋，那就直接查找吧( • ̀ω•́ )✧</p>
-<p>本篇文章是在已经搭建好gitpage+hexo的博客的前提下（不懂怎么搭建的可以参考我的另一篇博文：极简搭建博客 或者Hexo和Git搭建博客，这两篇博文都教了大家最基础的怎么将博客搭建起来。本篇博文是使用next主题的进击版本，主要是有以下内容</p>
-<p>域名绑定，将github博客和你的独有域名绑定
-添加更多的menu内容
-添加头像
-定义网站个性logo
-自定义样式，重写默认样式，个性化定制你的博客
-炫酷动态背景制作
-添加网易云音乐
-添加网易云跟帖
-添加leancloud阅读次数统计功能
-添加wordcount页面字数统计
-添加fork me on github功能
-要想最快的知道这些功能的效果，请移步我的个人博客：https://rainyxy.github.io/，顺便求个forkヽ(●´ε｀●)ノ</p>
-<p>首先要说一下我使用的版本，这个是很重要的，好多版本都已经进行了更新，特别是next主题集成了更多的插件，简直不要太爽＼（＠￣∇￣＠）／
-————————————————
-版权声明：本文为CSDN博主「Rainy_X」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/Rainy_X/java/article/details/79828724前言
-这算是各种文章的集合了，如果你有耐心就看完吧(Ｔ▽Ｔ)
-如果是明确想要哪一种功能的童鞋，那就直接查找吧( • ̀ω•́ )✧</p>
-<p>本篇文章是在已经搭建好gitpage+hexo的博客的前提下（不懂怎么搭建的可以参考我的另一篇博文：极简搭建博客 或者Hexo和Git搭建博客，这两篇博文都教了大家最基础的怎么将博客搭建起来。本篇博文是使用next主题的进击版本，主要是有以下内容</p>
-<p>域名绑定，将github博客和你的独有域名绑定
-添加更多的menu内容
-添加头像
-定义网站个性logo
-自定义样式，重写默认样式，个性化定制你的博客
-炫酷动态背景制作
-添加网易云音乐
-添加网易云跟帖
-添加leancloud阅读次数统计功能
-添加wordcount页面字数统计
-添加fork me on github功能
-要想最快的知道这些功能的效果，请移步我的个人博客：https://rainyxy.github.io/，顺便求个forkヽ(●´ε｀●)ノ</p>
-<p>首先要说一下我使用的版本，这个是很重要的，好多版本都已经进行了更新，特别是next主题集成了更多的插件，简直不要太爽＼（＠￣∇￣＠）／
-————————————————
-版权声明：本文为CSDN博主「Rainy_X」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/Rainy_X/java/article/details/79828724前言
-这算是各种文章的集合了，如果你有耐心就看完吧(Ｔ▽Ｔ)
-如果是明确想要哪一种功能的童鞋，那就直接查找吧( • ̀ω•́ )✧</p>
-<p>本篇文章是在已经搭建好gitpage+hexo的博客的前提下（不懂怎么搭建的可以参考我的另一篇博文：极简搭建博客 或者Hexo和Git搭建博客，这两篇博文都教了大家最基础的怎么将博客搭建起来。本篇博文是使用next主题的进击版本，主要是有以下内容</p>
-<p>域名绑定，将github博客和你的独有域名绑定
-添加更多的menu内容
-添加头像
-定义网站个性logo
-自定义样式，重写默认样式，个性化定制你的博客
-炫酷动态背景制作
-添加网易云音乐
-添加网易云跟帖
-添加leancloud阅读次数统计功能
-添加wordcount页面字数统计
-添加fork me on github功能
-要想最快的知道这些功能的效果，请移步我的个人博客：https://rainyxy.github.io/，顺便求个forkヽ(●´ε｀●)ノ</p>
-<p>首先要说一下我使用的版本，这个是很重要的，好多版本都已经进行了更新，特别是next主题集成了更多的插件，简直不要太爽＼（＠￣∇￣＠）／
-————————————————
-版权声明：本文为CSDN博主「Rainy_X」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/Rainy_X/java/article/details/79828724前言
-这算是各种文章的集合了，如果你有耐心就看完吧(Ｔ▽Ｔ)
-如果是明确想要哪一种功能的童鞋，那就直接查找吧( • ̀ω•́ )✧</p>
-<p>本篇文章是在已经搭建好gitpage+hexo的博客的前提下（不懂怎么搭建的可以参考我的另一篇博文：极简搭建博客 或者Hexo和Git搭建博客，这两篇博文都教了大家最基础的怎么将博客搭建起来。本篇博文是使用next主题的进击版本，主要是有以下内容</p>
-<p>域名绑定，将github博客和你的独有域名绑定
-添加更多的menu内容
-添加头像
-定义网站个性logo
-自定义样式，重写默认样式，个性化定制你的博客
-炫酷动态背景制作
-添加网易云音乐
-添加网易云跟帖
-添加leancloud阅读次数统计功能
-添加wordcount页面字数统计
-添加fork me on github功能
-要想最快的知道这些功能的效果，请移步我的个人博客：https://rainyxy.github.io/，顺便求个forkヽ(●´ε｀●)ノ</p>
-<p>首先要说一下我使用的版本，这个是很重要的，好多版本都已经进行了更新，特别是next主题集成了更多的插件，简直不要太爽＼（＠￣∇￣＠）／
-————————————————
-版权声明：本文为CSDN博主「Rainy_X」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/Rainy_X/java/article/details/79828724前言
-这算是各种文章的集合了，如果你有耐心就看完吧(Ｔ▽Ｔ)
-如果是明确想要哪一种功能的童鞋，那就直接查找吧( • ̀ω•́ )✧</p>
-<p>本篇文章是在已经搭建好gitpage+hexo的博客的前提下（不懂怎么搭建的可以参考我的另一篇博文：极简搭建博客 或者Hexo和Git搭建博客，这两篇博文都教了大家最基础的怎么将博客搭建起来。本篇博文是使用next主题的进击版本，主要是有以下内容</p>
-<p>域名绑定，将github博客和你的独有域名绑定
-添加更多的menu内容
-添加头像
-定义网站个性logo
-自定义样式，重写默认样式，个性化定制你的博客
-炫酷动态背景制作
-添加网易云音乐
-添加网易云跟帖
-添加leancloud阅读次数统计功能
-添加wordcount页面字数统计
-添加fork me on github功能
-要想最快的知道这些功能的效果，请移步我的个人博客：https://rainyxy.github.io/，顺便求个forkヽ(●´ε｀●)ノ</p>
-<p>首先要说一下我使用的版本，这个是很重要的，好多版本都已经进行了更新，特别是next主题集成了更多的插件，简直不要太爽＼（＠￣∇￣＠）／
-————————————————
-版权声明：本文为CSDN博主「Rainy_X」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/Rainy_X/java/article/details/79828724前言
-这算是各种文章的集合了，如果你有耐心就看完吧(Ｔ▽Ｔ)
-如果是明确想要哪一种功能的童鞋，那就直接查找吧( • ̀ω•́ )✧</p>
-<p>本篇文章是在已经搭建好gitpage+hexo的博客的前提下（不懂怎么搭建的可以参考我的另一篇博文：极简搭建博客 或者Hexo和Git搭建博客，这两篇博文都教了大家最基础的怎么将博客搭建起来。本篇博文是使用next主题的进击版本，主要是有以下内容</p>
-<p>域名绑定，将github博客和你的独有域名绑定
-添加更多的menu内容
-添加头像
-定义网站个性logo
-自定义样式，重写默认样式，个性化定制你的博客
-炫酷动态背景制作
-添加网易云音乐
-添加网易云跟帖
-添加leancloud阅读次数统计功能
-添加wordcount页面字数统计
-添加fork me on github功能
-要想最快的知道这些功能的效果，请移步我的个人博客：https://rainyxy.github.io/，顺便求个forkヽ(●´ε｀●)ノ</p>
-<p>首先要说一下我使用的版本，这个是很重要的，好多版本都已经进行了更新，特别是next主题集成了更多的插件，简直不要太爽＼（＠￣∇￣＠）／
-————————————————
-版权声明：本文为CSDN博主「Rainy_X」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/Rainy_X/java/article/details/79828724前言
-这算是各种文章的集合了，如果你有耐心就看完吧(Ｔ▽Ｔ)
-如果是明确想要哪一种功能的童鞋，那就直接查找吧( • ̀ω•́ )✧</p>
-<p>本篇文章是在已经搭建好gitpage+hexo的博客的前提下（不懂怎么搭建的可以参考我的另一篇博文：极简搭建博客 或者Hexo和Git搭建博客，这两篇博文都教了大家最基础的怎么将博客搭建起来。本篇博文是使用next主题的进击版本，主要是有以下内容</p>
-<p>域名绑定，将github博客和你的独有域名绑定
-添加更多的menu内容
-添加头像
-定义网站个性logo
-自定义样式，重写默认样式，个性化定制你的博客
-炫酷动态背景制作
-添加网易云音乐
-添加网易云跟帖
-添加leancloud阅读次数统计功能
-添加wordcount页面字数统计
-添加fork me on github功能
-要想最快的知道这些功能的效果，请移步我的个人博客：https://rainyxy.github.io/，顺便求个forkヽ(●´ε｀●)ノ</p>
-<p>首先要说一下我使用的版本，这个是很重要的，好多版本都已经进行了更新，特别是next主题集成了更多的插件，简直不要太爽＼（＠￣∇￣＠）／
-————————————————
-版权声明：本文为CSDN博主「Rainy_X」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/Rainy_X/java/article/details/79828724前言
-这算是各种文章的集合了，如果你有耐心就看完吧(Ｔ▽Ｔ)
-如果是明确想要哪一种功能的童鞋，那就直接查找吧( • ̀ω•́ )✧</p>
-<p>本篇文章是在已经搭建好gitpage+hexo的博客的前提下（不懂怎么搭建的可以参考我的另一篇博文：极简搭建博客 或者Hexo和Git搭建博客，这两篇博文都教了大家最基础的怎么将博客搭建起来。本篇博文是使用next主题的进击版本，主要是有以下内容</p>
-<p>域名绑定，将github博客和你的独有域名绑定
-添加更多的menu内容
-添加头像
-定义网站个性logo
-自定义样式，重写默认样式，个性化定制你的博客
-炫酷动态背景制作
-添加网易云音乐
-添加网易云跟帖
-添加leancloud阅读次数统计功能
-添加wordcount页面字数统计
-添加fork me on github功能
-要想最快的知道这些功能的效果，请移步我的个人博客：https://rainyxy.github.io/，顺便求个forkヽ(●´ε｀●)ノ</p>
-<p>首先要说一下我使用的版本，这个是很重要的，好多版本都已经进行了更新，特别是next主题集成了更多的插件，简直不要太爽＼（＠￣∇￣＠）／
-————————————————
-版权声明：本文为CSDN博主「Rainy_X」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/Rainy_X/java/article/details/79828724前言
-这算是各种文章的集合了，如果你有耐心就看完吧(Ｔ▽Ｔ)
-如果是明确想要哪一种功能的童鞋，那就直接查找吧( • ̀ω•́ )✧</p>
-<p>本篇文章是在已经搭建好gitpage+hexo的博客的前提下（不懂怎么搭建的可以参考我的另一篇博文：极简搭建博客 或者Hexo和Git搭建博客，这两篇博文都教了大家最基础的怎么将博客搭建起来。本篇博文是使用next主题的进击版本，主要是有以下内容</p>
-<p>域名绑定，将github博客和你的独有域名绑定
-添加更多的menu内容
-添加头像
-定义网站个性logo
-自定义样式，重写默认样式，个性化定制你的博客
-炫酷动态背景制作
-添加网易云音乐
-添加网易云跟帖
-添加leancloud阅读次数统计功能
-添加wordcount页面字数统计
-添加fork me on github功能
-要想最快的知道这些功能的效果，请移步我的个人博客：https://rainyxy.github.io/，顺便求个forkヽ(●´ε｀●)ノ</p>
-<p>首先要说一下我使用的版本，这个是很重要的，好多版本都已经进行了更新，特别是next主题集成了更多的插件，简直不要太爽＼（＠￣∇￣＠）／
-————————————————
-版权声明：本文为CSDN博主「Rainy_X」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/Rainy_X/java/article/details/79828724</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>测试标签和分类2.0</title>
-    <url>/2020/03/30/%E6%B5%8B%E8%AF%95%E6%A0%87%E7%AD%BE%E5%92%8C%E5%88%86%E7%B1%BB2-0/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>后端</category>
-      </categories>
-      <tags>
-        <tag>java</tag>
-        <tag>js</tag>
-        <tag>javaScript</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>测试分类和标签的文章</title>
-    <url>/2020/03/30/%E6%B5%8B%E8%AF%95%E5%88%86%E7%B1%BB%E5%92%8C%E6%A0%87%E7%AD%BE%E7%9A%84%E6%96%87%E7%AB%A0/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>后端</category>
-      </categories>
-      <tags>
-        <tag>java</tag>
-        <tag>设计模式</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>今天第二篇文章 测试归档效果</title>
-    <url>/2020/03/29/%E4%BB%8A%E5%A4%A9%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0-%E6%B5%8B%E8%AF%95%E5%BD%92%E6%A1%A3%E6%95%88%E6%9E%9C/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>第一篇博客的诞生</title>
     <url>/2020/03/29/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%AF%9E%E7%94%9F/</url>
     <content><![CDATA[<h1 id="第一篇博客"><a href="#第一篇博客" class="headerlink" title="第一篇博客"></a>第一篇博客</h1><p>第一篇博客讲的是什么,只有hexo</p>
 <p>和</p>
 <p>docsify</p>
+<p>错了没有docsify</p>
+<p>有hexo的牛逼主题 next</p>
 <p>哈哈哈</p>
 <h1 id="第一篇文章的更新"><a href="#第一篇文章的更新" class="headerlink" title="第一篇文章的更新"></a>第一篇文章的更新</h1><pre><code>测试更新后的效果</code></pre>]]></content>
   </entry>
